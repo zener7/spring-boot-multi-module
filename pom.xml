@@ -6,7 +6,7 @@
 	<groupId>pl.norbipol</groupId>
 	<artifactId>project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>project</name>
 	<description>Demo project for Spring Boot</description>
@@ -98,4 +98,8 @@
 	</build>
 
 
+	<modules>
+		<module>kafka</module>
+		<module>main</module>
+	</modules>
 </project>
